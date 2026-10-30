@@ -32,6 +32,7 @@ public class StudentService {
                 .age(newStudent.age())
                 .build();
        repo.save(student);
+
        return student;
     }
 
